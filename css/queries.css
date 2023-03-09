@@ -1,0 +1,326 @@
+/* * {
+    border: 1px solid red;
+} */
+
+@media (max-width: 34em) {
+
+    section {
+        height: 50vh;
+    }
+
+    .left-section {
+        margin: 2rem 0 2rem;
+        width: 35rem;
+    }
+
+    .left-section h1 {
+        font-size: 3.2rem;
+        margin-top: 5rem;
+        padding: 1rem;
+    }
+
+    .left-section p {
+        margin-top: 2rem;
+        padding: 1rem;
+        letter-spacing: normal;
+        font-size: 1.8rem;
+    }
+
+    .left-section button {
+        margin-top: 2rem;
+        margin-left: 1rem;
+        font-size: 1.8rem;
+    }
+
+    .btn-mobile-nav {
+        display: block;
+    }
+
+    nav {
+        background-color: rgba(255, 255, 255, 0.97);
+        background-color: green;
+        -webkit-backdrop-filter: blur(5px);
+        backdrop-filter: blur(10px);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        transform: translateX(100%);
+
+        display: none;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.5s ease-in; */
+        /* opacity: 0;
+        pointer-events: none;
+        /* visibility: hidden; */
+        flex-direction: column;
+        gap: 4.8rem;
+    }
+
+    .nav-open .icon-mobile-nav[name="close-outline"] {
+        display: block;
+    }
+
+    .nav-open .icon-mobile-nav[name="menu-outline"] {
+        /* display: none; */
+    }
+
+    header {
+        margin: 0 2rem 0 2rem;
+        justify-content: space-between;
+    }
+
+    .logo {
+        width: 6.8rem;
+    }
+
+    .right-section {
+        display: none;
+    }
+
+    .top img {
+        display: none;
+    }
+
+    section {
+        display: block;
+        margin: 1rem;
+    }
+
+    .identity {
+        display: none;
+    }
+
+    .grid-rows {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .hopb {
+        padding-top: 5rem;
+        margin: 0;
+        width: 100%;
+    }
+
+    .second-section {
+        margin: 0 3rem;
+        height: 30vh;
+    }
+
+    .second-section img {
+        margin-right: 2.3rem;
+        width: 8rem;
+    }
+
+    .third-section {
+        margin: 0 3rem;
+        height: 70vh;
+    }
+
+    .third-section h2 {
+        font-size: 3rem;
+    }
+
+    .third-section h6 {
+           margin-bottom: 2rem;
+           font-size: 2rem;
+    }
+
+    .third-section ul {
+        margin-top: 1.8rem;
+    }
+
+    .third-section li {
+        font-size: 2rem;
+    }
+
+    .fourth-section {
+        margin: 0;
+        padding: 0 3rem;
+    }
+
+    .fourth-section h2 {
+        margin-top: 1rem;
+        font-size: 3rem;
+    }
+    
+    .first-grid {
+        padding: 3rem;
+    }
+
+    .first-grid h5 {
+        font-size: 1.5rem;
+    }
+
+    .first-grid h6 {
+        font-size: 1.3rem;
+        font-weight: 600;
+    } 
+
+    .first-grid p {
+        font-size: 1.5rem;
+        letter-spacing: 0;
+        line-height: 2rem;
+        padding-bottom: 0;
+    } 
+
+    .first-grid img {
+        padding: 0;
+        margin-bottom: 3rem;
+    }
+
+    .fifth-section {
+        margin-top: 5rem;
+    }
+
+    .fifth-section .api {
+        width: 100%;
+        margin-top: 0;
+        margin-left: 0;
+        padding: 5rem 3rem;
+    }
+
+    .api h2 {
+        font-size: 2.3rem;
+    }
+
+    .api p {
+        font-size: 1.6rem;
+        line-height: 2rem;
+    }
+
+    .api button {
+        margin-top: 2rem;
+        font-weight: 600;
+    }
+
+    .fifth-section .empty {
+        padding: 0 3rem;
+        height: 60vh;
+        width: 90%;
+        /* margin: 0; */
+        margin: 2rem;
+    }
+
+
+    .fifth-section p {
+        padding: 0;
+    }
+
+    .sixth-section {
+        padding: 2rem;
+        display: block;
+        height: 40vh;
+    }
+
+    .sixth-section h2 {
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .sixth-section p {
+        font-size: 1.7rem;
+    }
+
+    .sixth-section button {
+        font-weight: 600;
+        margin-left: 8rem;
+    }
+
+    .sixth-section .six {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .sixth-section img {
+        display: none;
+    }
+
+    .seventh-section {
+        height: 80vh;
+        margin-bottom: 0;
+    }
+
+    .seventh-section h1 {
+        margin-left: 0;
+        padding: 5rem;
+        font-size: 3rem;
+    }
+
+    .seventh-section img {
+        display: none;
+    }
+
+    .seventh-section hr {
+        margin-top: 0;
+        margin-left: 1.5rem;
+        width: 90%;
+    }
+
+    .mid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0 3rem;
+    }
+
+    .middle p {
+        color: white;
+        font-size: 1.5rem;
+    }
+
+    .eight-section {
+        margin-top: 0;
+        height: 40vh;
+    }
+
+    .eight-section h2 {
+        padding: 5rem 4rem;
+        font-size: 3rem;
+        width: 100%;
+    }
+
+    .middle {
+        padding: 1rem;
+        margin: 2rem;
+    }
+
+    .es {
+        margin: 0;
+        border-radius: 0;
+        width: 100%;
+    }
+
+    .es img {
+        width: 140%;
+        top: 10rem;
+        right: 22rem;
+    }
+
+    .es button {
+        right: 12rem;
+        margin-top: 9rem;
+    }
+
+    .last-section img {
+        margin-left: 0;
+    }
+
+    .foot {
+        margin-left: 1.5rem;
+        flex-wrap: wrap;
+        gap: 5rem;
+    }
+
+    .last-section img{
+        margin-left: 1.5rem;
+    }
+
+    .last-section a{
+        margin: 1rem;
+    }
+
+    .foot h6 {
+        margin-bottom: 1rem;
+    }
+}

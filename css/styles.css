@@ -4,106 +4,130 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
 body {
     /* font-family: Arial, Helvetica, sans-serif; */
     font-family: "StudioPro", sans-serif;
     color: #495057;
+    /* overflow-x: hidden; */
 }
 
 .top {
     background-color: black;
     width: auto;
-    height: 55px;
+    height: 5.5rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 a {
-    font-size: 17px;
+    font-size: 1.7rem;
     color: #fff;
-    letter-spacing: 1px;
+    letter-spacing: 0.1rem;
 }
 
 header {
-    margin:20px 0 0 0;
+    margin: 2rem 0 0 0;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
 
 .logo {
-    width: 100px;
+    width: 10rem;
 }
 
 nav a {
-    margin: 0 20px;
+    margin: 0 2rem;
     color: #495057;
-    font-size: 16px;
+    font-size: 1.6rem;
     text-decoration: none;
     letter-spacing: 0;
 }
 
 nav a span svg {
-    width: 15px;
+    width: 1.5rem;
 }
 
 button {
     background-color: #009e74;
     color: #fff;
     border: 0;
-    border-radius: 5px;
-    padding: 13px 2px;
+    border-radius: 0.5rem;
+    padding: 1.3rem 0.2rem;
 }
 
 button a {
     color: #fff;
 }
 
+.btn-mobile-nav {
+    border: none;
+    background: none;
+    color: black;
+    cursor: pointer;
+    display: none;
+}
+
+.icon-mobile-nav {
+    height: 3.2rem;
+    width: 3.2rem;
+    color: black;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+    display: none;
+}
+
+
 section {
-    height: 200px;
-    margin: auto 100px;
+    height: 20rem;
+    margin: auto 10rem;
     height: 100vh;
     display: flex;
 }
 
 .left-section {
-    margin-top: 80px;
-    height: 500px;
-    width: 500px;
+    margin-top: 8rem;
+    height: 50rem;
+    width: 50rem;
 }
 
 h1 {
-    font-size: 45px;
+    font-size: 4.5rem;
     color: #343a40;
 }
 
 .left-section p {
-    margin-top: 30px;
-    font-size: 17px;
-    letter-spacing: 1px;
+    margin-top: 3rem;
+    font-size: 1.7rem;
+    letter-spacing: 0.1rem;
 }
 
 .left-section button {
-    padding: 13px 25px;
-    font-size: 17px;
-    margin-top: 40px;
+    padding: 1.3rem 2.5rem;
+    font-size: 1.7rem;
+    margin-top: 4rem;
 }
 
 .left-section .bad {
     background-color: #fff;
     color: #495057;
-    margin-left: 25px;
+    margin-left: 2.5rem;
     border: 1px solid #ced4da;
 }
 
 .right-section {
-    background-color: purple;
-    height: 500px;
-    width: 00px;
+    height: 50rem;
+    width: 0;
     display: flex;
     position: relative;
-    margin-left: 20px;
+    margin-left: 2rem;
 }
 
 
@@ -113,9 +137,9 @@ h1 {
 
 .right-section .phone {
     position: absolute;
-    top: 110px;
-    left: -60px;
-    width: 250px;
+    top: 11rem;
+    left: -6rem;
+    width: 25rem;
 }
 
 .second-section {
@@ -125,115 +149,115 @@ h1 {
 
 .second-section h5 {
  display: block;
- font-size: 17px;
- margin-bottom: 20px;
+ font-size: 1.7rem;
+ margin-bottom: 2rem;
 }
 
-.second-section img{
-    height: 30px;
-    margin-right: 50px;
+.second-section img {
+    height: 3rem;
+    margin-right: 5rem;
 }
 
 .third-section {
     display: grid;
-    grid-template-columns: 300px 763px;
+    grid-template-columns: 30rem 76.3rem;
     height: 120vh;
     overflow: hidden;
 }
 
 h2 {
-    font-size: 35px;
+    font-size: 3.5rem;
     color: black;
 }
 
 h6 {
-    font-size: 17px;
+    font-size: 1.7rem;
     color: #009e74;
     font-weight: 500;
-    margin-top: 20px;
-    margin-bottom: 50px;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
 }
 
 svg {
-    width: 12px;
+    width: 1.2rem;
 }
 
 .explore ul {
-    margin-top: 100px;
+    margin-top: 10rem;
 }
 
 .explore ul li {
     list-style-type: circle;
-    margin-bottom: 30px;
-    margin-left: 15px;
+    margin-bottom: 3rem;
+    margin-left: 1.5rem;
     font-weight: 600;
 }
 
 .identity {
     background-color: #f4f6f8;
-    border-radius: 20px;
-    padding-right: 120px;
+    border-radius: 2rem;
+    padding-right: 12rem;
 }
 
 h4 {
-    margin-top: 50px;
-    font-size: 20px;
+    margin-top: 5rem;
+    font-size: 2rem;
     font-weight: 600;
-    padding-left: 110px;
+    padding-left: 11rem;
 }
 
 .identity h2 {
-    padding-left: 110px;
-    margin-top: 20px;
+    padding-left: 11rem;
+    margin-top: 2rem;
 }
 
 .identity p {
-    margin-top: 30px;
-    padding-left: 110px;
+    margin-top: 3rem;
+    padding-left: 11rem;
 }
 
 .identity button {
-    margin-top: 20px;
-    font-size: 17px;
+    margin-top: 2rem;
+    font-size: 1.7rem;
     font-weight: 600;
-    padding: 15px 30px;
-    margin-left: 110px; 
-    margin-bottom: 10px;
+    padding: 1.5rem 3rem;
+    margin-left: 11rem; 
+    margin-bottom: 1rem;
 }
 
 hr {
-    margin-left: 110px;
-    margin-top: 30px;
-    border: 1px solid #868e96;
+    margin-left: 11rem;
+    margin-top: 3rem;
+    border: 0.1px solid #868e96;
 }
 
 .company {
-    margin-top: 40px;
+    margin-top: 4rem;
     display: flex;
     /* width: inherit; */
 }
 
 .yellow-background {
-    margin-top: 80px;
-    margin-left: 70px;
-    width: 630px;
-    height: 155px;
+    margin-top: 8rem;
+    margin-left: 7rem;
+    width: 63rem;
+    height: 15.5rem;
     background-color: #f7d002;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
     position: relative;
 }
 
 .yellow-background img{
-    width: 340px;
-    margin-left: 4px;
+    width: 34rem;
+    margin-left: 0.4rem;
 }
 
 .yellow-background .slabs {
     position: absolute;
-    width: 590px;
-    left: 20px;
-    top: -50px;
+    width: 59rem;
+    left: 2rem;
+    top: -5rem;
 }
 
 .fourth-section {
@@ -241,41 +265,41 @@ hr {
     height: auto;
     width: 100%;
     margin-left: 0;
-    margin-top: 100px;
+    margin-top: 10rem;
 }
 
 .hopb {
-    margin-left: 120px;
+    margin-left: 12rem;
     width: 80%;
 }
 
 .fourth-section h2 {
-    margin-top: 100px;
-    padding-bottom: 20px;
+    margin-top: 10rem;
+    padding-bottom: 2rem;
 }
 
 .fourth-section p {
-   padding-bottom: 50px;
-   line-height: 20px;
-   font-size: 17px;
+   padding-bottom: 5rem;
+   line-height: 2rem;
+   font-size: 1.7rem;
 }
 
 .fourth-section img {
-   width: 65px;
-   padding-bottom: 50px;
+   width: 6.5rem;
+   padding-bottom: 5rem;
 }
 
 .fourth-section h6 {
     color: #54667f;
-    margin-bottom: 15px;
-    font-size: 13px;
+    margin-bottom: 1.5rem;
+    font-size: 1.3rem;
 }
 
 .fourth-section h5 {
     color: black;
-    font-size: 13px;
-    padding-bottom: 10px;
-    font-size: 17px;
+    font-size: 1.3rem;
+    padding-bottom: 1rem;
+    font-size: 1.7rem;
     font-weight: 550;
 }
 
@@ -283,18 +307,18 @@ hr {
     background-color: #f4f6f8;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 30px;
+    grid-gap: 3rem;
 }
 
 .first-grid {
     background-color: white;
-    padding: 50px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgb(90 110 140 / 10%);
+    padding: 5rem;
+    border-radius: 1rem;
+    box-shadow: 0 0.4rem 0.8rem rgb(90 110 140 / 10%);
 }
 
 .first-grid p{
-    letter-spacing: 1px;
+    letter-spacing: 0.1rem;
 }
 
 .fifth-section {
@@ -302,44 +326,44 @@ hr {
     width: 100%;
     height: 110vh;
     margin-left: 0;
-    margin-top: 100px;
+    margin-top: 10rem;
 }
 
 .api {
     width: 30%;
-    margin-left: 120px;
-    margin-top: 200px;
+    margin-left: 12rem;
+    margin-top: 20rem;
 }
 
 .api h2 {
     color: #fff;
-    padding-bottom: 30px;
+    padding-bottom: 3rem;
 }
 
 .api p {
     color: #fff;
-    padding-bottom: 30px;
-    font-size: 20px;
-    line-height: 30px;
+    padding-bottom: 3rem;
+    font-size: 2rem;
+    line-height: 3rem;
 }
 
 .api button {
-    font-size: 17px;
-    padding: 15px 30px;
+    font-size: 1.7rem;
+    padding: 1.5rem 3rem;
 }
 
 .empty {
-    margin-top: 70px;
-    margin-left: 100px;
+    margin-top: 7rem;
+    margin-left: 10rem;
     width: 40%;
     height: 80%;
-    border-radius: 10px;
+    border-radius: 1rem;
     background-color: #344053;
 }
 
 .empty p {
-    padding: 50px;
-    line-height: 50px;
+    padding: 5rem;
+    line-height: 5rem;
     color: orangered;
 }
 
@@ -348,67 +372,67 @@ hr {
     width: 100%;
     /* height: 110vh; */
     margin-left: 0;
-    padding-top: 100px;
+    padding-top: 10rem;
     position: relative;
     height: 80vh;
 }
 
 .sixth-section .six {
     width: 50%;
-    margin-left: 110px;
+    margin-left: 11rem;
 }
 
 .six h2 {
-    margin-bottom: 30px;
+    margin-bottom: 3rem;
 }
 
 .six p {
-    margin-bottom: 30px;
-    font-size: 21px;
+    margin-bottom: 3rem;
+    font-size: 2.1rem;
 }
 
 .six button {
-    font-size: 17px;
-    padding: 15px 30px;
+    font-size: 1.7rem;
+    padding: 1.5rem 3rem;
 }
 
 .sixth-section img {
-    width: 50px;
+    width: 5rem;
 }
 
 .sixth-section .kd {
     position: absolute;
-    right: 450px;
-    width: 150px;
-    top: 130px;
+    right: 45rem;
+    width: 15rem;
+    top: 13rem;
 }
 
 .sixth-section .zn {
     position: absolute;
-    right: 300px;
-    width: 100px;
-    top: 40px;
+    right: 30rem;
+    width: 10rem;
+    top: 4rem;
 }
 
 .sixth-section .ps {
     position: absolute;
-    right: 600px;
-    width: 100px;
+    right: 60rem;
+    width: 10rem;
     top: 0;
 }
 
 .sixth-section .fb {
     position: absolute;
-    left: 500px;
-    width: 100px;
+    left: 50rem;
+    width: 10rem;
     bottom: 0;
 }
 
 .sixth-section .gt {
     position: absolute;
-    right: 300px;
-    width: 100px;
-    bottom: 50px;
+    right: 30rem;
+    width: 10rem;
+    bottom: 5rem;
 }
 
 .seventh-section {
@@ -421,14 +445,14 @@ hr {
 }
 
 .seventh-section h1 {
-    font-size: 60px;
-    margin-left: 400px;
+    font-size: 6rem;
+    margin-left: 40rem;
     color: #c0fc72;
-    padding-top: 100px;
+    padding-top: 10rem;
 }
 
 .seventh-section .limg {
-    width: 180px;
+    width: 18rem;
     position: absolute;
     right: 0;
     top: 0;
@@ -436,7 +460,7 @@ hr {
 
 .seventh-section hr {
     width: 80%;
-    border: 1px solid #dee2e6;
+    border: 0.1rem solid #dee2e6;
 }
 
 .mid {
@@ -445,23 +469,24 @@ hr {
     justify-content: center;
 }
 
-.mid h1 {
+.mid h2 {
     margin: 0;
     padding: 0;
     color: white;
 }
 
 .middle {
-padding: 30px 40px 0 40px;
+padding: 3rem 4rem 0 4rem;
 }
 
 .middle p {
     color: white;
+    font-size: 2rem;
 }
 
 .rimg {
     position: absolute;
-    width: 180px;
+    width: 18rem;
     left: 0;
     bottom: 0;
 }
@@ -476,50 +501,50 @@ padding: 30px 40px 0 40px;
 .eight-section h2{
     width: 60%;
     color: white;
-    padding: 60px 60px 0 60px;
+    padding: 6rem 6rem 0 6rem;
 }
 
 
 .es {
     position: relative;
-    margin-top: 100px;
+    margin-top: 10rem;
     background-color: #7664fe;
-    margin-left: 115px;
-    height: 250px;
+    margin-left: 11.5rem;
+    height: 25rem;
     width: 80%;
     justify-content: center;
-    border-radius: 10px;
+    border-radius: 1rem;
 }
 
 .es img {
     position: absolute;
-    width: 890px;
+    width: 89rem;
     top: 0;
-    right: 20px;
+    right: 2rem;
 }
 
 .es button {
     position: absolute;
-    right: 80px;
-    top: 65px;
+    right: 8rem;
+    top: 6.5rem;
     background-color: white;
     color: black;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 600;
-    padding: 15px 30px;
+    padding: 1.5rem 3rem;
 }
 
 .last-section {
-    background-color: wh;
+    /* background-color: wh; */
     width: 100%;
     margin-left: 0;
     height: auto;
 }
 
 .last-section img {
-    width: 100px;
-    margin-left: 200px;
-    margin-top: 20px;
+    width: 10rem;
+    margin-left: 20rem;
+    margin-top: 2rem;
 }
 
 .foot h6 {
@@ -529,21 +554,21 @@ padding: 30px 40px 0 40px;
 
 .foot a {
     display: block;
-    margin: 30px;
+    margin: 3rem;
     text-decoration: none;
     color: black;
     letter-spacing: 0;
-    font-size: 14px;
+    font-size: 1.4rem;
 }
 
 
 
 .foot {
-    margin-left: 200px;
+    margin-left: 20rem;
     display: flex;
 }
 
 footer p {
-    margin-left: 140px;
-    font-size: 14px;
+    margin-left: 14rem;
+    font-size: 1.4rem;
 }
